@@ -1,0 +1,32 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Python and notebook state
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Dataset archives and extracted imagery
+data/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+*.tif
+*.tiff
+
+# Generated runs and resumable training state
+outputs/
+models/checkpoint_*.pth
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
